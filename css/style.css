@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+/* universal selector */
+*
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root{
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternativeColor: gray;
+    --yellow: yellow;
+    --boarderColor: #c4d0d2;
+}
+/* Logo*/
+#logo{
+    width: 10rem;
+}
+/* body */
+body {
+    text-align: left;
+    font-family: 'Chivo Mono', monospace;
+}
+/*
+    background-color: your color
+    background-image: url('image path')
+    background-position: Where do you want the background image to start
+    background-size: Size of the background image -> cover and more
+    background-repeat: Do you want it to repeat or not
+    background-origin: Specify the position area: (padding-box, border-box, content-box)
+    background-clip: (border-box, padding-box, content-box)
+    background-attachment: Do you want your image to scroll with the rest of the image? fixed, scroll 
+    */
+
+    /* background: var(--bgColor) url('https://i.postimg.cc/W3tfwN1H/joel1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    object-fit: contain;
+    object-position: center;
+    background-blend-mode: screen;
+    */
+    nav{
+        display: flex;
+        float: right;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    nav ul li {
+        
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+        font-size: larger;
+    }
+    body {
+        background-image: url(https://i.postimg.cc/tgh2rymw/pexels-krivec-ales-547114.jpg);
+        
+    }
+    
